@@ -1,7 +1,7 @@
 CREATE TABLE movies(
     id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
     title TEXT NOT NULL,
-    directory TEXT,
+    director TEXT,
     release_year INTEGER,
     genre VARCHAR,
     plot TEXT,
